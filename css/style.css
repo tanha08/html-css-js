@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    text-align: center;
+    
+}
+.input{
+    margin:8px;
+    padding: 8px;
+    width: 10vh;
+    font-size: 15px;
+}
+.input1{
+    border: 1px solid black;
+    color: darkgray;
+    text-align: center;
+    font-size: 15px;
+    margin: 15px;
+}
+div button{
+    margin: 0 4px;
+    padding: 0 6px;
+    width: 30px;
+    cursor: pointer;
+}
+div button:focus{
+    outline: 2px solid#333;
+}
